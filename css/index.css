@@ -1,9 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(131, 133, 102);
 }
 
+#curso {
+    background-color: rgb(131, 133, 102);
+}
 
 .encabezado {
     margin-left: 4px;
