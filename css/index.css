@@ -2,10 +2,25 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
+    color: #494949;
+    text-transform: uppercase;
 }
+
+#logo img{
+    width: 350px;
+    height: 150px;
+    float: left;
+    transition: all 3000ms;
+    
+}
+
+#logo :hover{
+    opacity: 0.5;
+}
+
 
 section {
     min-height: 100%;
@@ -18,4 +33,78 @@ a{
 li{
 
     list-style-type: none;
+}
+
+h2{
+    color: #5d7177;
+}
+
+h3 {
+    font-size: 48px;
+    padding-top: 8%;
+}
+h4, p {font-family: 'Ubuntu', sans-serif; color: #494949;}
+
+hr {
+    width: 80px;
+    height: 4px;
+    background: #494949;
+    border: 0;
+    margin:o auto 40px auto;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+header nav {
+    float: right;
+    margin: 30px 50px 0 0;
+}
+
+header nav ul li {
+
+    float: left;
+    margin-right: 16px;
+
+}
+
+header nav ul li a{
+    color: #494949;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+header nav ul li:hover {
+
+    padding-top: 10px;
+    opacity: 0.5;
+
+}
+#home{
+    background: url(../img/home-travel.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+#home h1{
+    margin: 180px auto 0 auto;
+    font-size: 110px;
+    color: #1b1b1b;
+    
+}
+#home a img{
+    
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
 }
