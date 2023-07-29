@@ -14,13 +14,13 @@
   </head>
 
   <body>
-    <header>
+    <header >
       <div id="logo">
         <a href="#">
           <img src="./img/logo.jpg" alt="logo" />
         </a>
       </div>
-      
+    
       <nav id="main-nav">
         <ul>
           <li><a href="#home">Home</a></li>
@@ -43,7 +43,7 @@
       <h3>About me</h3>
       <hr />
       <img src="./img/avatar-mujer.png" alt="" />
-      <h4>Laagdev / Travel developer</h4>
+      <h4>Laag-Dev - Travel developer</h4>
       <p>
         I am a Telecommunications Engineer with experience in the technology field, and my focus is on frontend development. Currently, I am in the process of training in Full Stack programming.
       </p>
@@ -51,28 +51,28 @@
 
     <section id="work">
       <h3>Work</h3>
-      <hr />
+      <hr/>
 
       <div id="projects">
         <ul>
-          <li>
-            <a href="#"><img src="https://place-hold.it/280x170" alt="travel" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/div2.jpeg" alt="travel" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/div3.jpeg" alt="travel" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/div4.jpg" alt="developer" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/div5.jpeg" alt="developer" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/div6.jpg" alt="developer" /></a>
-          </li>
+            <li>
+              <a href="#"><img  src="./img/div1.jpeg" alt="travel" /></a>
+            </li>
+            <li>
+              <a href="#"><img  src="./img/div2.jpg" alt="travel" /></a>
+            </li>
+            <li>
+              <a href="#"><img  src="./img/div3.jpeg" alt="travel" /></a>
+            </li>
+            <li>
+              <a href="#"><img  src="./img/div4.jpg" alt="developer" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./img/div5.jpeg" alt="developer" /></a>
+            </li>
+            <li>
+              <a href="#"><img  src="./img/div6.jpg" alt="developer" /></a>
+            </li>
         </ul>
       </div>
     </section>
@@ -81,16 +81,26 @@
       <h3>Contact</h3>
       <hr />
 
-      <form action="">
+      <div class="form-container">
+      <form class="form">
+        <div class="form-group">
+        <label for="email">Company Email</label>
         <input type="email" tabindex="1" placeholder="E-mail" /><br />
+        <label for="text">Yours Reference</label>
         <input type="text" tabindex="2" placeholder="Reference" /><br />
-        <textarea tabindex="3" placeholder="Opinion"></textarea><br />
-        <input class="button" type="submit" />
+      </div>
+      <div class="form-group">
+        <label for="textarea">How Can We Help You?</label>
+        <textarea tabindex="3" placeholder="Opinion" rows="10" cols="50"></textarea><br />
+      </div>
+      <button class="form-submit-btn" type="submit">Submit</button>
       </form>
+    </div>
     </section>
 
     <footer>
       <p>&copy; 2023 Laag-Dev</p>
     </footer>
+
   </body>
 </html>
