@@ -111,7 +111,7 @@ header nav ul li:hover {
 
 #work{
 
-background-color: #FDFCDC;
+background-color: #e81cff11;
 }
 
 #projects{
@@ -127,8 +127,6 @@ float:left;
 margin-bottom: 15px;
 
 }
-
-
 
 
 #projects img {
@@ -250,5 +248,8 @@ margin-bottom: 15px;
   }
 
 footer{
-    background-color: #0081A7;
+    height: 2%;
+    font-size: 14px;
+    color: #414141;
+    background-color: #fff;
 }
